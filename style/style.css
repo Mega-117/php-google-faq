@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Product Sans',Arial,sans-serif;
+}
+
+header{
+    padding: 28px 28px 0;
+    border-bottom: 1px solid #5f6368;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.head-top{
+    margin-bottom: 15px;
+}
+
+.logo-link{
+    text-decoration: none;
+}
+
+.logo{
+    width: 100px;
+    vertical-align: middle;
+}
+
+.text-logo{
+    padding-left: 5px;
+    font-size: 26px;
+    color: #5f6368;
+    vertical-align: middle;
+}
+
+
+nav ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    display: flex;
+}
+nav ul li{
+    padding: 15px;
+    
+}
+
+nav ul li a{
+    color: #5f6368;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+main{
+    margin-top: 126px;
+    padding-top: 40px;
+}
+
+main .container{
+    width: 960px;
+    margin: auto;
+}
+
+.singola-domanda{
+    margin-bottom: 80px;
+}
+
+.singola-domanda p,
+.singola-domanda h2{
+    margin-bottom: 20px;
+}
+.singola-domanda p,
+.singola-domanda h2{
+    margin-bottom: 20px;
+}
+
+.singola-domanda p {
+    margin-bottom: 30px;
+}
+
+footer{
+    height: 20px;
+    background-color: grey;
+}
